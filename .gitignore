@@ -1,0 +1,24 @@
+.DS_Store
+xcuserdata/
+DerivedData/
+build/
+.build/
+.swiftpm/
+Packages/ShredderCore/.build/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+.claude/settings.local.json
+
+
+# Local and generated files
+.DS_Store
+build/
+dist/
+DerivedData/
+.build/
+node_modules/
+xcuserdata/
+*.xcuserstate
+.env*
+*.mobileprovision
+*.p12
+*.pem

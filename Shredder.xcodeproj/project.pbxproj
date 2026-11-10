@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		158935A66D3C58F08DA08685 /* TrashConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F7648BC2083CDB0432EE68 /* TrashConfirmationView.swift */; };
+		2DD9BD9BBF8DEA857FFB2A88 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F324FEEEF649894CBDAF24 /* SettingsView.swift */; };
+		358F8E8CF513AAB2F82F007B /* OpeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6D2CE9CB141A168BF4A60 /* OpeningView.swift */; };
+		35AC0127A196DFDF348DD311 /* TrashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7440DAB1F7380F0424E46BE /* TrashCoordinator.swift */; };
+		3D70C03E4509272D3813A2C2 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04723FECBED459FF4E245BA /* HistoryModel.swift */; };
+		3F08C9FF90A335AD13C0D3B3 /* ShredderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063F43B98A87158B2FB46067 /* ShredderApp.swift */; };
+		5FCDF9F97F257B3B8193D98B /* ShredderPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D93675060F2DA07274698BE /* ShredderPanel.swift */; };
+		648E4E25A5E3232B69B112DA /* LoginItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62287DE52629652713640CE5 /* LoginItem.swift */; };
+		69CF3B5E3317A80882FCCAB0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F01952DF248F0634EB4148 /* OnboardingView.swift */; };
+		753517A99C5D720BE9207B6D /* AutomationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A896B838110D932B0283B3C /* AutomationController.swift */; };
+		7EFB419A54B42DD578BABA09 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC61CAE6940583CFBA7709F3 /* HistoryView.swift */; };
+		80B498C85AE377A2595CE26D /* StorageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76D052C61F1F531F37867C4 /* StorageModel.swift */; };
+		84D5F90BC0426E2F89A83552 /* LeftoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549B0D0166AF2218FEB01F9 /* LeftoversView.swift */; };
+		86911DC0C5D067219A790CD7 /* PlanItemInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D528EF6EF086FEF305356E50 /* PlanItemInspector.swift */; };
+		8ADF5201DCDA3341002F407A /* ShredderStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10991DCB6759DB932EE51B /* ShredderStage.swift */; };
+		8F3F9AA88A5CE2022A3CD367 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA9E7A2E4E128879CA3A771 /* RootView.swift */; };
+		919F20B95AD8657CCBD01B59 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F548C063C4768DE699FD36D7 /* DesignSystem.swift */; };
+		9602D66F72568B6A6FAC9626 /* AutomationSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63298145F6287ABA0696B734 /* AutomationSettingsView.swift */; };
+		9C291AEE339DAD403660BC63 /* OrganizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D6AB92C4195AB43DD08B6 /* OrganizerView.swift */; };
+		A773FEE631FFB045AB4312C7 /* FileThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D626654AF80F1351FB281DDA /* FileThumbnail.swift */; };
+		AEE88FC31743261652D16FED /* SoundFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2981C78FB4E733D11F27419A /* SoundFeedback.swift */; };
+		B26F89DE06CC36310DAD5A60 /* OrganizerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490A6B83812246AB6DF8E7F7 /* OrganizerModel.swift */; };
+		BD143F1281603B01BCED31CB /* MenuBarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645C04EF9F8A3DEADCDDD16 /* MenuBarContent.swift */; };
+		CFFEA2D47638BD7C40420B62 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B40254F48347164D897686 /* AppModel.swift */; };
+		E7A3C1ECBAE3EC61EAEE7860 /* ApplicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C373D4FD2F44660E298D0 /* ApplicationsView.swift */; };
+		F2491E1E66A9BE32D51CB2BA /* ApplicationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DB8D852C840CAC7C98A573 /* ApplicationsModel.swift */; };
+		F2C1F323257C4B6E96DD2E0F /* StorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B132FF9E604FA07C2B0ADD94 /* StorageView.swift */; };
+		F426C9365A35715985642587 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515CE7830BA2D25B2AC10B0B /* HomeView.swift */; };
+		F8B231A4964422EDAEAC08FF /* ShredderCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3299D6BB8E45D9C79037DAD7 /* ShredderCore */; };
+		FAD2EDCF4C8931A156982B24 /* TreemapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E2BFB0B9D0C21A06EBC8CC /* TreemapView.swift */; };
+		FE50DE63AC0234D12DFDB714 /* FinderServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02564F2AB836BA5BF7B66DB3 /* FinderServiceProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02564F2AB836BA5BF7B66DB3 /* FinderServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderServiceProvider.swift; sourceTree = "<group>"; };
+		02E2BFB0B9D0C21A06EBC8CC /* TreemapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreemapView.swift; sourceTree = "<group>"; };
+		0549B0D0166AF2218FEB01F9 /* LeftoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftoversView.swift; sourceTree = "<group>"; };
+		063F43B98A87158B2FB46067 /* ShredderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShredderApp.swift; sourceTree = "<group>"; };
+		1AA9E7A2E4E128879CA3A771 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		1DF6D2CE9CB141A168BF4A60 /* OpeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningView.swift; sourceTree = "<group>"; };
+		1E10991DCB6759DB932EE51B /* ShredderStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShredderStage.swift; sourceTree = "<group>"; };
+		2981C78FB4E733D11F27419A /* SoundFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFeedback.swift; sourceTree = "<group>"; };
+		370D6AB92C4195AB43DD08B6 /* OrganizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerView.swift; sourceTree = "<group>"; };
+		3A896B838110D932B0283B3C /* AutomationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationController.swift; sourceTree = "<group>"; };
+		42DB8D852C840CAC7C98A573 /* ApplicationsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationsModel.swift; sourceTree = "<group>"; };
+		490A6B83812246AB6DF8E7F7 /* OrganizerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizerModel.swift; sourceTree = "<group>"; };
+		515CE7830BA2D25B2AC10B0B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		55B40254F48347164D897686 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		5B74E7E2DFC1F6144D3A2E18 /* ShredderCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ShredderCore; path = Packages/ShredderCore; sourceTree = SOURCE_ROOT; };
+		62287DE52629652713640CE5 /* LoginItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItem.swift; sourceTree = "<group>"; };
+		63298145F6287ABA0696B734 /* AutomationSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationSettingsView.swift; sourceTree = "<group>"; };
+		7188C2603A53215CD427549D /* Shredder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shredder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D93675060F2DA07274698BE /* ShredderPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShredderPanel.swift; sourceTree = "<group>"; };
+		A0F01952DF248F0634EB4148 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A76D052C61F1F531F37867C4 /* StorageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageModel.swift; sourceTree = "<group>"; };
+		B132FF9E604FA07C2B0ADD94 /* StorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageView.swift; sourceTree = "<group>"; };
+		BC61CAE6940583CFBA7709F3 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		C645C04EF9F8A3DEADCDDD16 /* MenuBarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContent.swift; sourceTree = "<group>"; };
+		C8F324FEEEF649894CBDAF24 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D04723FECBED459FF4E245BA /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		D528EF6EF086FEF305356E50 /* PlanItemInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanItemInspector.swift; sourceTree = "<group>"; };
+		D626654AF80F1351FB281DDA /* FileThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileThumbnail.swift; sourceTree = "<group>"; };
+		D97BD036CFEC356E9F063D39 /* Shredder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Shredder.entitlements; sourceTree = "<group>"; };
+		E1F7648BC2083CDB0432EE68 /* TrashConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashConfirmationView.swift; sourceTree = "<group>"; };
+		E7440DAB1F7380F0424E46BE /* TrashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashCoordinator.swift; sourceTree = "<group>"; };
+		F548C063C4768DE699FD36D7 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		FB4C373D4FD2F44660E298D0 /* ApplicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F321B613DF6F5C27A0D0895D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B231A4964422EDAEAC08FF /* ShredderCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D56A26BC45C549BF7D4D55D /* Organizer */ = {
+			isa = PBXGroup;
+			children = (
+				490A6B83812246AB6DF8E7F7 /* OrganizerModel.swift */,
+				370D6AB92C4195AB43DD08B6 /* OrganizerView.swift */,
+				D528EF6EF086FEF305356E50 /* PlanItemInspector.swift */,
+			);
+			path = Organizer;
+			sourceTree = "<group>";
+		};
+		170F9A657606F18C9A5A5C72 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				515CE7830BA2D25B2AC10B0B /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2AED05BC69D2B1C0C64E7B9F /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				62287DE52629652713640CE5 /* LoginItem.swift */,
+				C645C04EF9F8A3DEADCDDD16 /* MenuBarContent.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		32F9F5E481EB9BC2E58F05F0 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				5B74E7E2DFC1F6144D3A2E18 /* ShredderCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		34B5616697CEF7C4E2F4273F = {
+			isa = PBXGroup;
+			children = (
+				32F9F5E481EB9BC2E58F05F0 /* Packages */,
+				7B7F5E2FA92B8F373F546F9D /* Shredder */,
+				89C2EBB1BFEB218DD4434BDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FAFD6585F85148863372C4C /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				A76D052C61F1F531F37867C4 /* StorageModel.swift */,
+				B132FF9E604FA07C2B0ADD94 /* StorageView.swift */,
+				02E2BFB0B9D0C21A06EBC8CC /* TreemapView.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		566F090FD70318C8C464119C /* Trash */ = {
+			isa = PBXGroup;
+			children = (
+				2981C78FB4E733D11F27419A /* SoundFeedback.swift */,
+				E1F7648BC2083CDB0432EE68 /* TrashConfirmationView.swift */,
+				E7440DAB1F7380F0424E46BE /* TrashCoordinator.swift */,
+			);
+			path = Trash;
+			sourceTree = "<group>";
+		};
+		57BB73A3F962FC55F3475026 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C8F324FEEEF649894CBDAF24 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		6C0ED74552895A8729538778 /* Automation */ = {
+			isa = PBXGroup;
+			children = (
+				3A896B838110D932B0283B3C /* AutomationController.swift */,
+				63298145F6287ABA0696B734 /* AutomationSettingsView.swift */,
+			);
+			path = Automation;
+			sourceTree = "<group>";
+		};
+		7B7F5E2FA92B8F373F546F9D /* Shredder */ = {
+			isa = PBXGroup;
+			children = (
+				D97BD036CFEC356E9F063D39 /* Shredder.entitlements */,
+				7C5533782DE1D1C13DC20497 /* App */,
+				BADBBAB07B1A76553E3E644C /* Applications */,
+				6C0ED74552895A8729538778 /* Automation */,
+				AE32F8020B7A16D74A285629 /* Design */,
+				C26124FAD908798F4F45BDB2 /* Finder */,
+				F570EB1CD45AF13734C5D0CF /* History */,
+				170F9A657606F18C9A5A5C72 /* Home */,
+				2AED05BC69D2B1C0C64E7B9F /* MenuBar */,
+				DD43A14F5863F11F1FA2DA27 /* Onboarding */,
+				0D56A26BC45C549BF7D4D55D /* Organizer */,
+				57BB73A3F962FC55F3475026 /* Settings */,
+				B44BCC5A8AA6495BA1348EF1 /* Shredder */,
+				3FAFD6585F85148863372C4C /* Storage */,
+				566F090FD70318C8C464119C /* Trash */,
+				C656442FE9964C88081F274B /* Views */,
+			);
+			path = Shredder;
+			sourceTree = "<group>";
+		};
+		7C5533782DE1D1C13DC20497 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				55B40254F48347164D897686 /* AppModel.swift */,
+				063F43B98A87158B2FB46067 /* ShredderApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		89C2EBB1BFEB218DD4434BDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7188C2603A53215CD427549D /* Shredder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE32F8020B7A16D74A285629 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				F548C063C4768DE699FD36D7 /* DesignSystem.swift */,
+				D626654AF80F1351FB281DDA /* FileThumbnail.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		B44BCC5A8AA6495BA1348EF1 /* Shredder */ = {
+			isa = PBXGroup;
+			children = (
+				9D93675060F2DA07274698BE /* ShredderPanel.swift */,
+				1E10991DCB6759DB932EE51B /* ShredderStage.swift */,
+			);
+			path = Shredder;
+			sourceTree = "<group>";
+		};
+		BADBBAB07B1A76553E3E644C /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				42DB8D852C840CAC7C98A573 /* ApplicationsModel.swift */,
+				FB4C373D4FD2F44660E298D0 /* ApplicationsView.swift */,
+				0549B0D0166AF2218FEB01F9 /* LeftoversView.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		C26124FAD908798F4F45BDB2 /* Finder */ = {
+			isa = PBXGroup;
+			children = (
+				02564F2AB836BA5BF7B66DB3 /* FinderServiceProvider.swift */,
+			);
+			path = Finder;
+			sourceTree = "<group>";
+		};
+		C656442FE9964C88081F274B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AA9E7A2E4E128879CA3A771 /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD43A14F5863F11F1FA2DA27 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A0F01952DF248F0634EB4148 /* OnboardingView.swift */,
+				1DF6D2CE9CB141A168BF4A60 /* OpeningView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F570EB1CD45AF13734C5D0CF /* History */ = {
+			isa = PBXGroup;
+			children = (
+				D04723FECBED459FF4E245BA /* HistoryModel.swift */,
+				BC61CAE6940583CFBA7709F3 /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26D7DACBFCA1385570521D85 /* Shredder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321F459A20885D1BB346105E /* Build configuration list for PBXNativeTarget "Shredder" */;
+			buildPhases = (
+				0A14A49D91A5D57CCC1D70EE /* Sources */,
+				F321B613DF6F5C27A0D0895D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shredder;
+			packageProductDependencies = (
+				3299D6BB8E45D9C79037DAD7 /* ShredderCore */,
+			);
+			productName = Shredder;
+			productReference = 7188C2603A53215CD427549D /* Shredder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56FA13EEE18F7C441E6C241A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					26D7DACBFCA1385570521D85 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5E3DA82F4AFFB00D935BDDDF /* Build configuration list for PBXProject "Shredder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 34B5616697CEF7C4E2F4273F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3A49C4E2E73588E9303EA104 /* XCLocalSwiftPackageReference "Packages/ShredderCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 89C2EBB1BFEB218DD4434BDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D7DACBFCA1385570521D85 /* Shredder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A14A49D91A5D57CCC1D70EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFEA2D47638BD7C40420B62 /* AppModel.swift in Sources */,
+				F2491E1E66A9BE32D51CB2BA /* ApplicationsModel.swift in Sources */,
+				E7A3C1ECBAE3EC61EAEE7860 /* ApplicationsView.swift in Sources */,
+				753517A99C5D720BE9207B6D /* AutomationController.swift in Sources */,
+				9602D66F72568B6A6FAC9626 /* AutomationSettingsView.swift in Sources */,
+				919F20B95AD8657CCBD01B59 /* DesignSystem.swift in Sources */,
+				A773FEE631FFB045AB4312C7 /* FileThumbnail.swift in Sources */,
+				FE50DE63AC0234D12DFDB714 /* FinderServiceProvider.swift in Sources */,
+				3D70C03E4509272D3813A2C2 /* HistoryModel.swift in Sources */,
+				7EFB419A54B42DD578BABA09 /* HistoryView.swift in Sources */,
+				F426C9365A35715985642587 /* HomeView.swift in Sources */,
+				84D5F90BC0426E2F89A83552 /* LeftoversView.swift in Sources */,
+				648E4E25A5E3232B69B112DA /* LoginItem.swift in Sources */,
+				BD143F1281603B01BCED31CB /* MenuBarContent.swift in Sources */,
+				69CF3B5E3317A80882FCCAB0 /* OnboardingView.swift in Sources */,
+				358F8E8CF513AAB2F82F007B /* OpeningView.swift in Sources */,
+				B26F89DE06CC36310DAD5A60 /* OrganizerModel.swift in Sources */,
+				9C291AEE339DAD403660BC63 /* OrganizerView.swift in Sources */,
+				86911DC0C5D067219A790CD7 /* PlanItemInspector.swift in Sources */,
+				8F3F9AA88A5CE2022A3CD367 /* RootView.swift in Sources */,
+				2DD9BD9BBF8DEA857FFB2A88 /* SettingsView.swift in Sources */,
+				3F08C9FF90A335AD13C0D3B3 /* ShredderApp.swift in Sources */,
+				5FCDF9F97F257B3B8193D98B /* ShredderPanel.swift in Sources */,
+				8ADF5201DCDA3341002F407A /* ShredderStage.swift in Sources */,
+				AEE88FC31743261652D16FED /* SoundFeedback.swift in Sources */,
+				80B498C85AE377A2595CE26D /* StorageModel.swift in Sources */,
+				F2C1F323257C4B6E96DD2E0F /* StorageView.swift in Sources */,
+				158935A66D3C58F08DA08685 /* TrashConfirmationView.swift in Sources */,
+				35AC0127A196DFDF348DD311 /* TrashCoordinator.swift in Sources */,
+				FAD2EDCF4C8931A156982B24 /* TreemapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A840ADF89097E500F23D6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		61EC5E9D7071AC86392BE2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		6A2D58D5622570FF1BCA328E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = Shredder/Shredder.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shredder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Shredder;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "デスクトップのファイルを整理するために使用します。";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "書類フォルダのファイルを整理するために使用します。";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "ダウンロードフォルダのファイルを整理するために使用します。";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.shredder.Shredder;
+				PRODUCT_NAME = Shredder;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		815CD653BDF18CED22F29268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = Shredder/Shredder.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Shredder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Shredder;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "デスクトップのファイルを整理するために使用します。";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "書類フォルダのファイルを整理するために使用します。";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "ダウンロードフォルダのファイルを整理するために使用します。";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.shredder.Shredder;
+				PRODUCT_NAME = Shredder;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		321F459A20885D1BB346105E /* Build configuration list for PBXNativeTarget "Shredder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815CD653BDF18CED22F29268 /* Debug */,
+				6A2D58D5622570FF1BCA328E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5E3DA82F4AFFB00D935BDDDF /* Build configuration list for PBXProject "Shredder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61EC5E9D7071AC86392BE2CC /* Debug */,
+				1A840ADF89097E500F23D6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3A49C4E2E73588E9303EA104 /* XCLocalSwiftPackageReference "Packages/ShredderCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/ShredderCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3299D6BB8E45D9C79037DAD7 /* ShredderCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ShredderCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 56FA13EEE18F7C441E6C241A /* Project object */;
+}
